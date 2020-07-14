@@ -19,6 +19,7 @@ public class AverageContinuous
         {
             x += current;
             Scanner input = new Scanner(System.in);
+            current = input.nextInt();
         }
         avg = Math.round((i)/x);
         System.out.print(avg);
