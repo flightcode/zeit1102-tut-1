@@ -1,13 +1,6 @@
-
-/**
- * @Elliot Parker
- * @v1.0.0-2020-07-14
- */
-
 import java.util.Scanner;
 
 public class Largest {
-
     public static void main(String[] args) {
         System.out.print("Input 3 numbers: ");
         Scanner input = new Scanner(System.in);

@@ -1,18 +1,11 @@
-
-/**
- * @Elliot Parker
- * @v1.3.3-2020-07-14
- */
-
 import java.util.Scanner;
 
 public class AverageContinuous {
-    int i;
-    int current;
-    int x;
-    float avg;
+    public static void main(String[] args) {
+        int current = 0;
+        int x = 0;
+        int i;
 
-    public AverageContinuous() {
         System.out.println("Input numbers (-1 to stop): ");
         for (i = -1; current != -1; i++) {
             x += current;
@@ -20,7 +13,7 @@ public class AverageContinuous {
             current = input.nextInt();
             input.close();
         }
-        avg = (float) x / i;
+        float avg = (float) x / i;
         System.out.println("Average: " + avg);
     }
 }
